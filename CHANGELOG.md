@@ -1,3 +1,7 @@
+# 00.001.035
+
+Restore original shell artwork and publish locally generated tile music into own registered metadata.
+
 # Changelog
 
 ## v00.001.000 - 2026-11-01

@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#status-and-availability"><img src="https://img.shields.io/badge/version-v00.001.000-003791" alt="Version00.001.000"></a>
+  <a href="#status-and-availability"><img src="https://img.shields.io/badge/version-v00.001.035-003791" alt="Version00.001.000"></a>
   <img src="https://img.shields.io/badge/platform-PS5%20homebrew-003791" alt="Platform: PS5 homebrew">
   <a href="#requirements"><img src="https://img.shields.io/badge/game%20data-Own%20PAL%20GameCube%20ISO-555555" alt="Game data: Own PAL GameCube ISO"></a>
 </p>
@@ -36,16 +36,16 @@ input and app-local storage. You supply your own supported GameCube disc image.
 | Game data | Your own PAL `GM8P01`, revision 0 raw ISO |
 | Controller | DualSense |
 | Application identity | `PPSA99731` |
-| Availability | v00.001.000 publicly available |
+| Availability | v00.001.035 publicly available |
 
 ## Status and availability
 
-**Install on PS5:** [Download PhazonPrime v00.001.000](https://github.com/BaZZtian/PhazonPrime-PS5/releases/download/v00.001.000/PhazonPrime-v00.001.000-PS5.zip).
+**Install on PS5:** [Download PhazonPrime v00.001.035](https://github.com/BaZZtian/PhazonPrime-PS5/releases/download/v00.001.035/PhazonPrime-v00.001.035-PS5.zip).
 
 | Download | Purpose | Install it? |
 | --- | --- | --- |
-| `PhazonPrime-v00.001.000-PS5.zip` | PS5 application | Yes |
-| `PhazonPrime-v00.001.000-source.zip` | Exact matching source/build material required by component licenses | No |
+| `PhazonPrime-v00.001.035-PS5.zip` | PS5 application | Yes |
+| `PhazonPrime-v00.001.035-source.zip` | Exact matching source/build material required by component licenses | No |
 | `SHA256SUMS` | Text fingerprints for checking download integrity | No |
 
 GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** links are repository snapshots in two formats. They are not additional application builds; the specifically named source ZIP contains the full matching application source. Detailed licensing evidence remains in the separate reference release and is not required for installation.
@@ -220,7 +220,7 @@ Additional component attribution is documented in [NOTICE.txt](NOTICE.txt).
 
 Each component retains its own copyright and applicable license. The original Metaforce MIT license covers the Metaforce material released under that license; it does not automatically cover independent subprojects. PhazonPrime-authored code is covered by its stated license where explicitly indicated, not by a blanket license for the combined application.
 
-The selected v00.001.000 native program uses **MathPhazon (MIT)** and **StoragePhazon (MIT)** instead of the historical original Zeus/Kabufuda implementations. Original Metaforce and third-party grants remain intact; the combined program retains applicable GPLv3 duties. Complete corresponding source is supplied beside the application. See [licensing reference](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [replacement provenance](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
+The selected v00.001.035 native program uses **MathPhazon (MIT)** and **StoragePhazon (MIT)** instead of the historical original Zeus/Kabufuda implementations. Original Metaforce and third-party grants remain intact; the combined program retains applicable GPLv3 duties. Complete corresponding source is supplied beside the application. See [licensing reference](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [replacement provenance](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
 The DatSketch PS5 model remains separately licensed under CC BY-ND4.0. Its unchanged GLB, attribution, exact conversion source and disclosed runtime representation accompany the release. The license register explains the separate asset terms. See [the dated model conversion assessment](MODEL-LICENSE-ASSESSMENT.md).
 
@@ -235,3 +235,7 @@ PhazonPrime is an independent, unofficial homebrew project and is not affiliated
 The [licensing and replacement-provenance reference](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000) records the component matrix, original grants, independent helper replacement and covered input hashes. It is a separate reference download; it is not needed for installation and is not reattached to every application release. Reuse requires unchanged covered inputs/lineage; relevant changes require updated evidence. Each application still supplies its required original notices and matching corresponding source.
 
 This is the curated public distribution repository. Complete matching source accompanies the application release; private development history is retained separately.
+
+## Shell presentation correction
+
+Version 00.001.035 restores the original crystalline icon and Samus/temple background. Tile music generated from your own supported ISO is now also published into the registered metadata for this title, including retry on subsequent launches. See [correction verification](RELEASE-CORRECTION.md).

@@ -43,3 +43,6 @@
 !/CHANGELOG.md
 !/licenses/**
 !MODEL-LICENSE-ASSESSMENT.md
+!RELEASE-CORRECTION.md
+!sce_sys/pic0.dds
+!sce_sys/pic1.dds
