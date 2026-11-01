@@ -241,3 +241,6 @@ This is the curated public distribution repository. Complete matching source acc
 Version 00.001.035 restores the original crystalline icon and Samus/temple background. Tile music generated from your own supported ISO is now also published into the registered metadata for this title, including retry on subsequent launches. See [correction verification](RELEASE-CORRECTION.md).
 
 **Existing installations and saves:** read [update and save safety](UPDATE-SAFETY.md) before migrating an older private title or updating through the Store.
+
+
+**Verified tile-music limitation:** Local music generation succeeds on the tested PS5, but automatic publication to its system tile did not complete. Manual tile-metadata synchronization is currently required in that setup. Audible playback acceptance and an automatic correction remain open. This status update changes no application/source download bytes.

@@ -1,4 +1,4 @@
-# Shell presentation correction — v00.001.035
+# Shell presentation correction â€” v00.001.035
 
 The previous package used fallback artwork. This release restores the exact owner-selected crystalline icon and Samus/cyan-temple backgrounds. The source archive contains the canonical artwork and a verification tool, so packaging does not regenerate the simplified fallback.
 
@@ -9,3 +9,6 @@ Synthetic host tests passed for initial/repeated publication and the refusal cas
 This is updated evidence for the changed music module; the historical licensing-reference-v00.001.000 remains the baseline for unchanged modules. It is not asserted to cover this changed binary by itself. Exact audible hardware acceptance of the corrected production binary is still pending; successful generation, metadata publication and audible PS5 playback remain distinct claims. Keep the first run open until generation completes and enable system-menu music in the PS5 settings.
 
 Original component licenses and the separate DatSketch model terms remain unchanged. The selected generated fan artwork does not imply ownership of the depicted character or endorsement. Title/install folder PPSA99731, game media and saves are preserved. Known gameplay issues remain as documented. No universal legal clearance or exact-production gameplay acceptance is claimed.
+
+
+**Verified tile-music limitation:** Local music generation succeeds on the tested PS5, but automatic publication to its system tile did not complete. Manual tile-metadata synchronization is currently required in that setup. Audible playback acceptance and an automatic correction remain open. This status update changes no application/source download bytes.
