@@ -1,0 +1,45 @@
+# Release repository: all other files are excluded by default.
+/*
+!/LICENSE
+!/NOTICE.txt
+!/README.md
+!/VERSION
+!/.gitignore
+!/sce_sys/
+/sce_sys/*
+!/sce_sys/param.json
+!/sce_sys/icon0.png
+!/licenses/
+/licenses/*
+!/licenses/Apache-2.0.txt
+!/licenses/GPL-3.0.txt
+!/licenses/Metaforce-MIT.txt
+!/licenses/PhazonPrime-MIT.txt
+!/licenses/console-model-CC-BY-ND-4.0.txt
+!/licenses/console-model-NOTICE.txt
+
+# Explicit credential exclusions also apply inside the permitted directories.
+**/.env
+**/.env.*
+**/*.p12
+**/*.pfx
+**/*.pem
+**/*.key
+**/*.token
+**/*.secret
+**/id_rsa
+**/id_ed25519
+**/*credentials*.json
+**/*private*.log
+**/*.dmp
+
+# Explicitly authorized replacement verification documentation.
+
+# v00.001.000 player release documentation and original notices.
+!/CHANGELOG.md
+!/licenses/**
+
+# v00.001.000 player release documentation and original notices.
+!/CHANGELOG.md
+!/licenses/**
+!MODEL-LICENSE-ASSESSMENT.md

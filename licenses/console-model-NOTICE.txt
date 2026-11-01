@@ -1,0 +1,17 @@
+Playstation 5 Digital Edition - DatSketch
+Source: https://sketchfab.com/3d-models/playstation-5-digital-edition-ea891a5332934095a5c6407b3b14b296
+Creator: https://sketchfab.com/DatSketch
+License: CC Attribution-NoDerivatives 4.0 International
+https://creativecommons.org/licenses/by-nd/4.0/
+
+The supplied original PS5.glb is included unchanged in assets/console/PS5.glb.
+SHA-256: 2ad227d9b901d5e3e0ba6c2c17d629fa894e25b370d07541c8a2a0985c7fbc0d
+37850 original triangles; no reshaping, decimation, added model parts or retexturing.
+The runtime companion private-console-mesh-v1.bin is a technical rendering
+representation: Y-up/Z-up coordinate conversion, centering/uniform sizing,
+triangle expansion, original material colors/normals represented with static
+key/fill illumination for the existing renderer. These operations are disclosed;
+no claim of full original PBR rendering is made. This asset and its technical
+representation retain their original CC BY-ND terms, separate from the code's
+GPL/MIT terms. No endorsement by DatSketch or Sony is implied.
+Preserve author, source, license and this notice. The app adds no asset DRM.

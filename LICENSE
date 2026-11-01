@@ -1,0 +1,21 @@
+PhazonPrime - component and combined-program license scopes
+
+Original contributors retain their copyrights and original license grants.
+
+Metaforce classic source retains its historical MIT license, reproduced in engine/LICENSE and licenses/Metaforce-MIT.txt in the corresponding source. Aurora and the other components retain their own grants and per-file exceptions. The port does not claim ownership of those contributions.
+
+The assembled native application includes GPL-covered platform, input and encoder components. Its conveyance must satisfy the applicable GNU GPL version3 requirements, including matching complete corresponding source. The original GPL text is in licenses/GPL-3.0.txt. This combined-program requirement does not erase permissive grants for individual files.
+
+New project-controlled replacement modules, the CARD declaration adapter and identified original release tools/artwork use their scoped MIT grants. See licenses/Own-Replacement-and-Release-Work-MIT.txt, MathPhazon-MIT.txt, StoragePhazon-MIT.txt and OWN-CODE-SCOPE.md. Foreign tools and source retain their original terms. No exclusive rights in every AI-assisted fragment or ownership of foreign work are asserted.
+
+Noto Mono remains OFL-1.1. Controller artwork remains CC-BY-4.0. The delivered DatSketch Playstation5 Digital Edition model and its disclosed technical runtime representation remain separately CC BY-ND4.0. Its unchanged GLB, exact conversion source, author/source attribution and original license text accompany the distribution. The geometric shell artwork is project-created; it is separate from the DatSketch model. The optional generic-mesh generator does not make the delivered model project-owned or MIT-licensed.
+
+See licenses/console-model-NOTICE.txt and console-model-CC-BY-ND-4.0.txt. The dated MODEL-LICENSE-ASSESSMENT.md explains the technical-format assessment and supersedes the earlier unresolved publication wording. No separate creator adaptation permission or universal legal clearance is asserted. Nothing here revokes or narrows rights already granted by the original component licenses.
+
+No license here covers original game discs, extracted game assets/music, genuine saves, proprietary SDKs or Sony system modules; none is supplied. Trademarks remain with their holders; no endorsement is implied.
+
+Detailed version-specific licensing and replacement provenance:
+https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000
+
+Matching corresponding-source download:
+https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/v00.001.000

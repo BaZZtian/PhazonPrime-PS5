@@ -1,0 +1,28 @@
+PhazonPrime - credits and component notices
+
+Maintainer of this port/repository: BaZZtian.
+Metroid Prime content belongs to its respective owners; PlayStation/DualSense to
+Sony. No affiliation or endorsement is claimed. Users provide their own game.
+
+Original contributors retain their copyrights and original license grants.
+Metaforce classic: Axiomatic Data Laboratories and contributors, revision
+93f4f468c8ed351edcfd9a36cc02ee249163126c. Original MIT text and author notice
+remain unchanged in licenses/Metaforce-MIT.txt.
+
+Historical EXCLUDED implementation references: Zeus cc8a8ae71584e72ed713cedf617148c555fb6be1
+and Kabufuda 9493afc8ff961ee04193038046308411904b8137. These original implementation
+modules are NOT contained in the checked 00.001.000 source/binary selection.
+MathPhazon (MIT) and StoragePhazon (MIT) supply the project-controlled replacements.
+Historical grant/LLVM/libogc review references are not assertions that the old
+implementations are shipped or licensed by this project. Current exact evidence
+and preserved component scopes are in the separate licensing reference:
+https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000
+
+Credit to Aurora, Dawn/WebGPU, SDL, Mesa/RADV, LLVM and their original authors;
+Mihawk-99 and PS5_Vulkan contributors for platform/module/runtime work;
+BlackBearReloaded for native input and PSGFX/ATRAC9 work; LibAtrac9 authors for
+attributed tables; Odrannnn and griches for reviewed platform/library references.
+Project-authored existing MIT grants are preserved in their original scope.
+No repository-wide relicense or new license for independent components is claimed.
+
+Original GPL and Apache terms remain unchanged. Full selected software/component notices accompany the application and corresponding source. The restored DatSketch Playstation5 Digital Edition model is separately CC BY-ND4.0; unchanged GLB, attribution and disclosed technical runtime conversion are supplied. See licenses/console-model-NOTICE.txt and the source assets/console/MODEL-PROVENANCE.json. No endorsement or public-conversion clearance is claimed.
