@@ -1,3 +1,7 @@
+# 00.001.036
+
+New redesigned wayfinder background with PhazonPrime wordmark. Original icon and native program unchanged. Automatic system-tile music limitation remains; fresh console test confirms local generation only.
+
 # 00.001.035
 
 Restore original shell artwork and publish locally generated tile music into own registered metadata.

@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#status-and-availability"><img src="https://img.shields.io/badge/version-v00.001.035-003791" alt="Version00.001.000"></a>
+  <a href="#status-and-availability"><img src="https://img.shields.io/badge/version-v00.001.036-003791" alt="Version00.001.036"></a>
   <img src="https://img.shields.io/badge/platform-PS5%20homebrew-003791" alt="Platform: PS5 homebrew">
   <a href="#requirements"><img src="https://img.shields.io/badge/game%20data-Own%20PAL%20GameCube%20ISO-555555" alt="Game data: Own PAL GameCube ISO"></a>
 </p>
@@ -36,16 +36,16 @@ input and app-local storage. You supply your own supported GameCube disc image.
 | Game data | Your own PAL `GM8P01`, revision 0 raw ISO |
 | Controller | DualSense |
 | Application identity | `PPSA99731` |
-| Availability | v00.001.035 publicly available |
+| Availability | v00.001.036 publicly available |
 
 ## Status and availability
 
-**Install on PS5:** [Download PhazonPrime v00.001.035](https://github.com/BaZZtian/PhazonPrime-PS5/releases/download/v00.001.035/PhazonPrime-v00.001.035-PS5.zip).
+**Install on PS5:** [Download PhazonPrime v00.001.036](https://github.com/BaZZtian/PhazonPrime-PS5/releases/download/v00.001.036/PhazonPrime-v00.001.036-PS5.zip).
 
 | Download | Purpose | Install it? |
 | --- | --- | --- |
-| `PhazonPrime-v00.001.035-PS5.zip` | PS5 application | Yes |
-| `PhazonPrime-v00.001.035-source.zip` | Exact matching source/build material required by component licenses | No |
+| `PhazonPrime-v00.001.036-PS5.zip` | PS5 application | Yes |
+| `PhazonPrime-v00.001.036-source.zip` | Exact matching source/build material required by component licenses | No |
 | `SHA256SUMS` | Text fingerprints for checking download integrity | No |
 
 GitHub's automatic **Source code (zip)** and **Source code (tar.gz)** links are repository snapshots in two formats. They are not additional application builds; the specifically named source ZIP contains the full matching application source. Detailed licensing evidence remains in the separate reference release and is not required for installation.
@@ -220,7 +220,7 @@ Additional component attribution is documented in [NOTICE.txt](NOTICE.txt).
 
 Each component retains its own copyright and applicable license. The original Metaforce MIT license covers the Metaforce material released under that license; it does not automatically cover independent subprojects. PhazonPrime-authored code is covered by its stated license where explicitly indicated, not by a blanket license for the combined application.
 
-The selected v00.001.035 native program uses **MathPhazon (MIT)** and **StoragePhazon (MIT)** instead of the historical original Zeus/Kabufuda implementations. Original Metaforce and third-party grants remain intact; the combined program retains applicable GPLv3 duties. Complete corresponding source is supplied beside the application. See [licensing reference](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [replacement provenance](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
+The selected v00.001.036 native program uses **MathPhazon (MIT)** and **StoragePhazon (MIT)** instead of the historical original Zeus/Kabufuda implementations. Original Metaforce and third-party grants remain intact; the combined program retains applicable GPLv3 duties. Complete corresponding source is supplied beside the application. See [licensing reference](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [replacement provenance](https://github.com/BaZZtian/PhazonPrime-PS5/releases/tag/licensing-reference-v00.001.000), [LICENSE](LICENSE) and [NOTICE.txt](NOTICE.txt).
 
 The DatSketch PS5 model remains separately licensed under CC BY-ND4.0. Its unchanged GLB, attribution, exact conversion source and disclosed runtime representation accompany the release. The license register explains the separate asset terms. See [the dated model conversion assessment](MODEL-LICENSE-ASSESSMENT.md).
 
@@ -236,11 +236,10 @@ The [licensing and replacement-provenance reference](https://github.com/BaZZtian
 
 This is the curated public distribution repository. Complete matching source accompanies the application release; private development history is retained separately.
 
-## Shell presentation correction
+## Artwork update — v00.001.036
 
-Version 00.001.035 restores the original crystalline icon and Samus/temple background. Tile music generated from your own supported ISO is now also published into the registered metadata for this title, including retry on subsequent launches. See [correction verification](RELEASE-CORRECTION.md).
+New project-selected crystalline wayfinder background with the PhazonPrime wordmark replaces the prior Samus background. The original crystal icon is unchanged. The new image is AI-generated project artwork; its source is retained in the matching source ZIP and its origin/limits are in [the artwork notice](licenses/ARTWORK-NOTICE.txt). All original software/model licenses remain unchanged. This artwork/metadata update uses the exact native program from v00.001.035.
 
-**Existing installations and saves:** read [update and save safety](UPDATE-SAFETY.md) before migrating an older private title or updating through the Store.
+**Known issue — system-tile music:** A fresh v00.001.036 PS5 first-load test generated the complete 60-second music file, but automatic publication to registered tile metadata failed again. This release does not fix that path. A one-console manual synchronization was verified separately; audible menu playback still requires an owner hearing check and is not proved by file checks. No game audio is included in the download.
 
-
-**Verified tile-music limitation:** Local music generation succeeds on the tested PS5, but automatic publication to its system tile did not complete. Manual tile-metadata synchronization is currently required in that setup. Audible playback acceptance and an automatic correction remain open. This status update changes no application/source download bytes.
+Use **Quick update** in ProsperoStore and retain independent save backups. See [update safety](UPDATE-SAFETY.md) and [release verification](RELEASE-CORRECTION.md). Known map/door-visual issues remain.

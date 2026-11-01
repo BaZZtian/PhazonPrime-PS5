@@ -1,0 +1,7 @@
+# PhazonPrime artwork provenance — v00.001.036
+
+The crystalline project icon is unchanged. The new project-selected background was generated with an AI image tool using the earlier scene as a composition/palette reference. A newly designed nonhuman crystalline wayfinder replaces the prior Samus figure. The image includes the exact PhazonPrime wordmark, with no Update Tester subtitle in this customer package. No external character model or texture pack was used for this background. This notice does not grant rights in Nintendo characters or imply endorsement, exclusive copyright, trademark clearance, or guaranteed legal clearance.
+
+Original generated image: 1671x941 pixels, retained as background-source.png. Existing project BC7 conversion resamples it to 3840x2160; this is not native 4K image generation. The canonical source/output hashes are in selected-art.json and source-manifest.json. The private tester uses a distinct labelled variant and title identity.
+
+All software component licenses and the separate DatSketch model license remain unchanged. This artwork provenance is distinct from those software/model grants; it does not relicense them. The previous fan-art description applied to superseded artwork and is not a claim about this new image.
